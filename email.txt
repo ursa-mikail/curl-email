@@ -1,0 +1,5 @@
+From: Your Name <u@yahoo.com>
+To: Recipient Name <u@gmail.com>
+Subject: Test Email 01
+
+Test email sent using curl via Yahoo's SMTP server.

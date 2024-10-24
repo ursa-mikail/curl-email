@@ -1,0 +1,19 @@
+curl --url "smtp://smtp.mail.yahoo.com:587" --ssl-reqd \
+--mail-from "u@yahoo.com" \
+--mail-rcpt "u@gmail.com" \
+--upload-file email.txt \
+--user "u@yahoo.com:<app-password>" \
+--verbose
+
+curl --url "smtp://smtp.gmail.com:587" --ssl-reqd \
+--mail-from "your-email@gmail.com" \
+--mail-rcpt "recipient-email@example.com" \
+--upload-file email.txt \
+--user "your-email@gmail.com:your-app-password" \
+--verbose
+
+goto: https://login.yahoo.com/myaccount/security/
+
+# get a <app-password>
+App password:
+Generate and manage app passwords
